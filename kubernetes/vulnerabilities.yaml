@@ -1,6 +1,6 @@
 FixedInVersions:
   CVE:                    "CVE-2019-11248"
-  FixedIn:                        
+  FixedIn:
   - "1.12.10"
   - "1.13.8"
   - "1.14.4"
@@ -12,7 +12,7 @@ FixedInVersions:
   Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/pKELclHIov8"
 FixedInVersions:
   CVE:                    "CVE-2019-9512"
-  FixedIn:                
+  FixedIn:
   - "v1.13.10"
   - "v1.14.6"
   - "v1.15.3"
@@ -34,7 +34,7 @@ FixedInVersions:
   Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/-J31xyxTO8I"
 FixedInVersions:
   CVE:                    "CVE-2019-1002100"
-  FixedIn:                
+  FixedIn:
   - "v1.11.8"
   - "v1.12.6"
   - "v1.13.4"
@@ -45,7 +45,7 @@ FixedInVersions:
   Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/i-HEIs8WC5w"
 FixedInVersions:
   CVE:                    "CVE-2019-11247"
-  FixedIn:                
+  FixedIn:
   - "v1.13.9"
   - "v1.14.5"
   - "v1.15.2"
@@ -56,7 +56,7 @@ FixedInVersions:
   Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/vUtEcSEY6SM"
 FixedInVersions:
   CVE:                    "CVE-2019-9946"
-  FixedIn:                
+  FixedIn:
   - "1.11.9"
   - "1.12.7"
   - "1.13.5"
@@ -68,7 +68,7 @@ FixedInVersions:
   Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/l7J1lW2ciHw"
 FixedInVersions:
   CVE:                    "CVE-2018-1002105"
-  FixedIn:                
+  FixedIn:
   - "1.10.11"
   - "v1.11.5"
   - "v1.12.3"
@@ -80,11 +80,11 @@ FixedInVersions:
   Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/fm1MkmubMoI"
 ExistsInVersions:
   CVE: "CVE-2019-11243"
-  ExistsIn: 
-  - Range: 
+  ExistsIn:
+  - Range:
       From: "v1.12.0"
       To: "v1.12.4"
-  - Range: 
+  - Range:
       From: "v1.13.0"
       To: "v1.13.0"
   Component:  "Kubernetes"
@@ -92,34 +92,34 @@ ExistsInVersions:
   LastUpdate: "17Sep2019"
   Details:    "n/a"
 ExistsInVersions:
-    CVE: "CVE-2017-1000056"
-    ExistsIn: 
-    - Range:
-        From: "1.5.0"
-        To: "1.5.4"
-    Component:  "Kubernetes"
-    URL:        "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000056"
-    LastUpdate: "17Sep2019"
-    Details:    "n/a"
-    # platforms: not on kubeadm and GKE
-  ExistsInVersions:
-    CVE: "CVE-2017-1002100"
-    ExistsIn: 
-    - Range:
-        From: "1.6.0"
-        To: "1.6.5"
-    Component:  "Kubernetes"
-    Platforms:  
-    - "Azure"
-    URL:        "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002100"
-    LastUpdate: "17Sep2019"
-    Details:    "n/a"
+  CVE: "CVE-2017-1000056"
+  ExistsIn:
+  - Range:
+      From: "1.5.0"
+      To: "1.5.4"
+  Component:  "Kubernetes"
+  URL:        "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000056"
+  LastUpdate: "17Sep2019"
+  Details:    "n/a"
+  # platforms: not on kubeadm and GKE
+ExistsInVersions:
+  CVE: "CVE-2017-1002100"
+  ExistsIn:
+  - Range:
+      From: "1.6.0"
+      To: "1.6.5"
+  Component:  "Kubernetes"
+  Platforms:
+  - "Azure"
+  URL:        "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002100"
+  LastUpdate: "17Sep2019"
+  Details:    "n/a"
 FixedInVersions:
-    CVE:                    "CVE-2015-7528"
-    FixedIn:                
-    - "1.2.0-alpha.5"
-    FirstVulnerableVersion: "TBD"
-    Component:              "Kubernetes"
-    URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7528"
-    LastUpdate:             "17Sep2019"
-    Details:                "n/a"
+  CVE:                    "CVE-2015-7528"
+  FixedIn:
+  - "1.2.0-alpha.5"
+  FirstVulnerableVersion: "TBD"
+  Component:              "Kubernetes"
+  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7528"
+  LastUpdate:             "17Sep2019"
+  Details:                "n/a"
