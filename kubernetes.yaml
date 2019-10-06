@@ -7,9 +7,11 @@ FixedInVersions:
   - "1.15.0"
   FirstVulnerableVersion: "0.0.0"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11248"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11248"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/pKELclHIov8"
   LastUpdate:             "17Sep2019"
-  Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/pKELclHIov8"
+  Severity:               "medium"
 FixedInVersions:
   CVE:                    "CVE-2019-9512"
   FixedIn:
@@ -18,20 +20,22 @@ FixedInVersions:
   - "v1.15.3"
   FirstVulnerableVersion: "0.0.0"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9512"
-  LastUpdate:             "17Sep2019"
-  Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/-J31xyxTO8I"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9512"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/-J31xyxTO8I"
+  LastUpdate:             "29Sep2019"
 FixedInVersions:
-  CVE: "CVE-2019-9514"
+  CVE:                    "CVE-2019-9514"
   FixedIn:
   - "v1.13.10"
   - "v1.14.6"
   - "v1.15.3"
   FirstVulnerableVersion: "0.0.0"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9514"
-  LastUpdate:             "17Sep2019"
-  Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/-J31xyxTO8I"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9514"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/-J31xyxTO8I"
+  LastUpdate:             "29Sep2019"
 FixedInVersions:
   CVE:                    "CVE-2019-1002100"
   FixedIn:
@@ -40,9 +44,10 @@ FixedInVersions:
   - "v1.13.4"
   FirstVulnerableVersion: "1.0.0"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1002100"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1002100"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/i-HEIs8WC5w"
   LastUpdate:             "17Sep2019"
-  Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/i-HEIs8WC5w"
 FixedInVersions:
   CVE:                    "CVE-2019-11247"
   FixedIn:
@@ -51,9 +56,10 @@ FixedInVersions:
   - "v1.15.2"
   FirstVulnerableVersion: "1.7.0"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11247"
+  Links:
+    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11247"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/vUtEcSEY6SM"
   LastUpdate:             "17Sep2019"
-  Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/vUtEcSEY6SM"
 FixedInVersions:
   CVE:                    "CVE-2019-9946"
   FixedIn:
@@ -63,9 +69,10 @@ FixedInVersions:
   - "1.14.0"
   FirstVulnerableVersion: "0.0.0"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9946"
+  Links:
+    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9946"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/l7J1lW2ciHw"
   LastUpdate:             "17Sep2019"
-  Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/l7J1lW2ciHw"
 FixedInVersions:
   CVE:                    "CVE-2018-1002105"
   FixedIn:
@@ -75,9 +82,10 @@ FixedInVersions:
   - "v1.13.0-rc.1"
   FirstVulnerableVersion: "0.0.0"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1002105"
+  Links:
+    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1002105"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/fm1MkmubMoI"
   LastUpdate:             "17Sep2019"
-  Details:                "https://groups.google.com/forum/#!topic/kubernetes-security-announce/fm1MkmubMoI"
 ExistsInVersions:
   CVE:                    "CVE-2019-11243"
   ExistsIn:
@@ -86,7 +94,8 @@ ExistsInVersions:
       To:    "v1.12.4"
   - Version: "v1.13.0"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11243"
+  Links:
+    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11243"
   LastUpdate:             "17Sep2019"
   Details:                "n/a"
 ExistsInVersions:
@@ -96,7 +105,8 @@ ExistsInVersions:
       From: "1.5.0"
       To:   "1.5.4"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000056"
+  Links:
+    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000056"
   LastUpdate:             "17Sep2019"
   Details:                "n/a"
   # platforms: not on kubeadm and GKE
@@ -109,7 +119,8 @@ ExistsInVersions:
   Component:  "kubernetes"
   Platforms:
   - "Azure"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002100"
+  Links:
+    URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002100"
   LastUpdate:             "17Sep2019"
   Details:                "n/a"
 FixedInVersions:
@@ -118,6 +129,7 @@ FixedInVersions:
   - "1.2.0-alpha.5"
   FirstVulnerableVersion: "TBD"
   Component:              "kubernetes"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7528"
+  Links:
+    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7528"
   LastUpdate:             "17Sep2019"
   Details:                "n/a"
