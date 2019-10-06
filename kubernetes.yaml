@@ -103,10 +103,13 @@ CVE:
       From: "1.5.0"
       To:   "1.5.4"
   Component:              "kubernetes"
+  Platforms:
+    Not:
+    - "kubeadm"
+    - "GKE"
   Links:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000056"
   Severity:               "critical"
-  # platforms: not on kubeadm and GKE
 CVE:
   ID:                     "CVE-2017-1002100"
   ExistsIn:
@@ -115,7 +118,8 @@ CVE:
       To:   "1.6.5"
   Component:  "kubernetes"
   Platforms:
-  - "Azure"
+    Only:
+    - "Azure"
   Links:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002100"
   Severity:               "medium"
