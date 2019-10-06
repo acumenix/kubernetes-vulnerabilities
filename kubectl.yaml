@@ -5,7 +5,6 @@ CVE:
   - Version: "v1.14.6"
   - Version: "v1.15.3"
   Component:              "kubectl"
-  LastUpdate:             "17Sep2019"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11251"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/6vTrp6tVpHo"
@@ -22,7 +21,7 @@ CVE:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1002101"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/OYFV1hiDE2w"
-  LastUpdate:             "17Sep2019"
+  Severity:               "medium"
 CVE:
   ID:                     "CVE-2019-11246"
   FixedIn:
@@ -34,7 +33,7 @@ CVE:
   Links:                    
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11246"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/NLs2TGbfPdo"
-  LastUpdate:             "17Sep2019"
+  Severity:               "medium"
 CVE:
   ID:                     "CVE-2019-11249"
   FixedIn:
@@ -46,7 +45,7 @@ CVE:
   Links:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11249"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/vUtEcSEY6SM"
-  LastUpdate:             "17Sep2019"
+  Severity:               "medium"
 CVE:
   ID:                     "CVE-2019-11244"
   ExistsIn:
@@ -55,5 +54,4 @@ CVE:
       To:   "v1.14.x"
   Component:              "kubectl"
   URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11244"
-  LastUpdate:             "17Sep2019"
-  Details:                "n/a"
+  Severity:               "medium"

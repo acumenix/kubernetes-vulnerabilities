@@ -10,8 +10,7 @@ CVE:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11248"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/pKELclHIov8"
-  LastUpdate:             "17Sep2019"
-  Severity:               "medium"
+  Severity:               "high"
 CVE:
   ID:                     "CVE-2019-9512"
   FixedIn:
@@ -23,7 +22,7 @@ CVE:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9512"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/-J31xyxTO8I"
-  LastUpdate:             "29Sep2019"
+  Severity:               "high"
 CVE:
   ID:                     "CVE-2019-9514"
   FixedIn:
@@ -35,7 +34,7 @@ CVE:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9514"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/-J31xyxTO8I"
-  LastUpdate:             "29Sep2019"
+  Severity:               "high"
 CVE:
   ID:                     "CVE-2019-1002100"
   FixedIn:
@@ -47,7 +46,7 @@ CVE:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1002100"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/i-HEIs8WC5w"
-  LastUpdate:             "17Sep2019"
+  Severity:               "medium"
 CVE:
   ID:                     "CVE-2019-11247"
   FixedIn:
@@ -59,7 +58,7 @@ CVE:
   Links:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11247"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/vUtEcSEY6SM"
-  LastUpdate:             "17Sep2019"
+  Severity:               "high"
 CVE:
   ID:                     "CVE-2019-9946"
   FixedIn:
@@ -72,7 +71,7 @@ CVE:
   Links:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9946"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/l7J1lW2ciHw"
-  LastUpdate:             "17Sep2019"
+  Severity:               "high"
 CVE:
   ID:                     "CVE-2018-1002105"
   FixedIn:
@@ -85,7 +84,7 @@ CVE:
   Links:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1002105"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/fm1MkmubMoI"
-  LastUpdate:             "17Sep2019"
+  Severity:               "critical"
 CVE:
   ID:                     "CVE-2019-11243"
   ExistsIn:
@@ -96,8 +95,7 @@ CVE:
   Component:              "kubernetes"
   Links:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11243"
-  LastUpdate:             "17Sep2019"
-  Details:                "n/a"
+  Severity:               "high"
 CVE:
   ID:                     "CVE-2017-1000056"
   ExistsIn:
@@ -107,8 +105,7 @@ CVE:
   Component:              "kubernetes"
   Links:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000056"
-  LastUpdate:             "17Sep2019"
-  Details:                "n/a"
+  Severity:               "critical"
   # platforms: not on kubeadm and GKE
 CVE:
   ID:                     "CVE-2017-1002100"
@@ -120,9 +117,8 @@ CVE:
   Platforms:
   - "Azure"
   Links:
-    URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002100"
-  LastUpdate:             "17Sep2019"
-  Details:                "n/a"
+    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002100"
+  Severity:               "medium"
 CVE:
   ID:                     "CVE-2015-7528"
   FixedIn:
@@ -131,5 +127,4 @@ CVE:
   Component:              "kubernetes"
   Links:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7528"
-  LastUpdate:             "17Sep2019"
-  Details:                "n/a"
+  Severity:               "medium"
