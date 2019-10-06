@@ -1,5 +1,5 @@
-ExistsInVersions:
-  CVE:                    "CVE-2019-11251"
+CVE:
+  ID:                     "CVE-2019-11251"
   ExistsIn:
   - Version: "v1.13.10"
   - Version: "v1.14.6"
@@ -10,8 +10,8 @@ ExistsInVersions:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11251"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/6vTrp6tVpHo"
   Severity:               "medium"
-FixedInVersions:
-  CVE:                    "CVE-2019-1002101"
+CVE:
+  ID:                     "CVE-2019-1002101"
   FixedIn:
   - "v1.11.9"
   - "v1.12.7"
@@ -23,8 +23,8 @@ FixedInVersions:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1002101"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/OYFV1hiDE2w"
   LastUpdate:             "17Sep2019"
-FixedInVersions:
-  CVE:                    "CVE-2019-11246"
+CVE:
+  ID:                     "CVE-2019-11246"
   FixedIn:
   - "1.12.9"
   - "1.13.6"
@@ -35,8 +35,8 @@ FixedInVersions:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11246"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/NLs2TGbfPdo"
   LastUpdate:             "17Sep2019"
-FixedInVersions:
-  CVE:                    "CVE-2019-11249"
+CVE:
+  ID:                     "CVE-2019-11249"
   FixedIn:
   - "1.13.9"
   - "1.14.5"
@@ -47,8 +47,8 @@ FixedInVersions:
     URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11249"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/vUtEcSEY6SM"
   LastUpdate:             "17Sep2019"
-ExistsInVersions:
-  CVE:                    "CVE-2019-11244"
+CVE:
+  ID:                     "CVE-2019-11244"
   ExistsIn:
   - Range:
       From: "v1.8.x"

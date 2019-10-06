@@ -1,5 +1,5 @@
-ExistsInVersions:
-  CVE:                    "CVE-2019-11245"
+CVE:
+  ID:                     "CVE-2019-11245"
   ExistsIn:
   - Version: "v1.13.6"
   - Version: "v1.14.2"
