@@ -40,7 +40,7 @@ Vulnerabilities:
   FirstVulnerableVersion: "1.1.0"
   Component:              "kubectl"
   Links:
-    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11249"
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11249"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/vUtEcSEY6SM"
   Severity:               "medium"
 - CVE:                    "CVE-2019-11244"
@@ -49,5 +49,6 @@ Vulnerabilities:
       From: "v1.8.x"
       To:   "v1.14.x"
   Component:              "kubectl"
-  URL:                    "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11244"
+  Links:
+    CVE:                   "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11244"
   Severity:               "medium"

@@ -52,7 +52,7 @@ Vulnerabilities:
   FirstVulnerableVersion: "1.7.0"
   Component:              "kubernetes"
   Links:
-    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11247"
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11247"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/vUtEcSEY6SM"
   Severity:               "high"
 - CVE:                    "CVE-2019-9946"
@@ -64,7 +64,7 @@ Vulnerabilities:
   FirstVulnerableVersion: "0.0.0"
   Component:              "kubernetes"
   Links:
-    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9946"
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9946"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/l7J1lW2ciHw"
   Severity:               "high"
 - CVE:                    "CVE-2018-1002105"
@@ -76,7 +76,7 @@ Vulnerabilities:
   FirstVulnerableVersion: "0.0.0"
   Component:              "kubernetes"
   Links:
-    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1002105"
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1002105"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/fm1MkmubMoI"
   Severity:               "critical"
 - CVE:                    "CVE-2019-11243"
@@ -87,7 +87,7 @@ Vulnerabilities:
   - Version: "v1.13.0"
   Component:              "kubernetes"
   Links:
-    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11243"
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11243"
   Severity:               "high"
 - CVE:                    "CVE-2017-1000056"
   ExistsIn:
@@ -100,7 +100,7 @@ Vulnerabilities:
     - "kubeadm"
     - "GKE"
   Links:
-    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000056"
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000056"
   Severity:               "critical"
 - CVE:                    "CVE-2017-1002100"
   ExistsIn:
@@ -112,7 +112,7 @@ Vulnerabilities:
     Only:
     - "Azure"
   Links:
-    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002100"
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002100"
   Severity:               "medium"
 - CVE:                    "CVE-2015-7528"
   FixedIn:
@@ -120,5 +120,5 @@ Vulnerabilities:
   FirstVulnerableVersion: "TBD"
   Component:              "kubernetes"
   Links:
-    URL:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7528"
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7528"
   Severity:               "medium"
