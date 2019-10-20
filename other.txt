@@ -15,3 +15,6 @@ https://groups.google.com/forum/#!topic/kubernetes-security-announce/gBq6Jlum2Fk
 
 CVE 2018-11235 - git
 https://groups.google.com/forum/#!topic/kubernetes-security-announce/ayqL4LiUcV4
+
+CVE-2019-5736 - runc
+https://kubernetes.io/blog/2019/02/11/runc-and-cve-2019-5736/
