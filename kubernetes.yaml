@@ -112,6 +112,24 @@ Vulnerabilities:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11243"
   Severity:               "high"
+- CVE:                    "CVE-2018-1002101"
+  ExistsIn:
+  - Range:
+      From: "1.9.0"
+      To:   "1.9.9"
+  - Range:
+      From: "1.10.0"
+      To: "1.10.5"
+  - Range:
+      From: "1.11.0"
+      To: "1.11.1"
+  Component:              "kubernetes"
+  Platforms:
+    Only:
+    - "Windows"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1002101"
+  Severity:               "critical"
 - CVE:                    "CVE-2017-1000056"
   ExistsIn:
   - Range:
