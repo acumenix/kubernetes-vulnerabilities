@@ -28,33 +28,33 @@ Vulnerabilities:
   - "1.13.8"
   - "1.14.4"
   - "1.15.0"
-  FirstVulnerableVersion: "0.0.0"
+  FirstVulnerableVersion: "1.0.0"
   Component:              "kubernetes"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11248"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/pKELclHIov8"
-  Severity:               "high"
+  Severity:               "medium"
 - CVE:                    "CVE-2019-9512"
   FixedIn:
   - "v1.13.10"
   - "v1.14.6"
   - "v1.15.3"
-  FirstVulnerableVersion: "0.0.0"
+  FirstVulnerableVersion: "1.0.0"
   Component:              "kubernetes"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9512"
-    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/-J31xyxTO8I"
+    Announcement:         "https://groups.google.com/forum/#!searchin/kubernetes-security-announce/CVE-2019-9512%7Csort:date/kubernetes-security-announce/wlHLHit1BqA/b26CdkvoAwAJ"
   Severity:               "high"
 - CVE:                    "CVE-2019-9514"
   FixedIn:
   - "v1.13.10"
   - "v1.14.6"
   - "v1.15.3"
-  FirstVulnerableVersion: "0.0.0"
+  FirstVulnerableVersion: "1.0.0"
   Component:              "kubernetes"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9514"
-    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/-J31xyxTO8I"
+    Announcement:         "https://groups.google.com/forum/#!searchin/kubernetes-security-announce/CVE-2019-9512%7Csort:date/kubernetes-security-announce/wlHLHit1BqA/b26CdkvoAwAJ"
   Severity:               "high"
 - CVE:                    "CVE-2019-1002100"
   FixedIn:
@@ -84,19 +84,19 @@ Vulnerabilities:
   - "1.12.7"
   - "1.13.5"
   - "1.14.0"
-  FirstVulnerableVersion: "0.0.0"
+  FirstVulnerableVersion: "1.0.0"
   Component:              "kubernetes"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9946"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/l7J1lW2ciHw"
-  Severity:               "high"
+  Severity:               "medium"
 - CVE:                    "CVE-2018-1002105"
   FixedIn:
   - "v1.10.11"
   - "v1.11.5"
   - "v1.12.3"
   - "v1.13.0-rc.1"
-  FirstVulnerableVersion: "0.0.0"
+  FirstVulnerableVersion: "1.0.0"
   Component:              "kubernetes"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1002105"
@@ -140,7 +140,7 @@ Vulnerabilities:
 - CVE:                    "CVE-2015-7528"
   FixedIn:
   - "1.2.0-alpha.5"
-  FirstVulnerableVersion: "TBD"
+  FirstVulnerableVersion: "1.0.0"
   Component:              "kubernetes"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7528"
