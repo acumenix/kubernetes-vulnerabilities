@@ -1,0 +1,17 @@
+Additional CVEs:
+
+kube-state-metrics v1.7.2
+https://groups.google.com/forum/#!topic/kubernetes-security-announce/QHKmY0EIXUk
+
+CVE-2018-18264
+https://groups.google.com/forum/#!topic/kubernetes-security-announce/0K5Yjy8wMjs
+
+https://groups.google.com/forum/#!topic/kubernetes-security-announce/tyd-MVR-tY4
+
+https://groups.google.com/forum/#!topic/kubernetes-security-announce/MfFKo_9YAFk
+
+CVE-2018-1002103 - minikube
+https://groups.google.com/forum/#!topic/kubernetes-security-announce/gBq6Jlum2Fk
+
+CVE 2018-11235 - git
+https://groups.google.com/forum/#!topic/kubernetes-security-announce/ayqL4LiUcV4
