@@ -125,6 +125,28 @@ Vulnerabilities:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000056"
   Severity:               "critical"
+- CVE:                    "CVE-2017-1002102"
+  FixedIn:
+  - "1.7.14"
+  - "1.8.9"
+  - "1.9.4"
+  FirstVulnerableVersion: "1.0.0"
+  Component:  "kubernetes"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002102"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/P7lBjbjDKd8"
+  Severity:               "medium"
+- CVE:                    "CVE-2017-1002101"
+  FixedIn:
+  - "1.7.14"
+  - "1.8.9"
+  - "1.9.4"
+  FirstVulnerableVersion: "1.0.0"
+  Component:  "kubernetes"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002101"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/P7lBjbjDKd8"
+  Severity:               "critical"
 - CVE:                    "CVE-2017-1002100"
   ExistsIn:
   - Range:
