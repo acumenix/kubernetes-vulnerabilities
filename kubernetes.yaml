@@ -167,3 +167,14 @@ Vulnerabilities:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-7528"
   Severity:               "medium"
+- CVE:                    "CVE-2017-14491"
+  FixedIn:
+  - "1.5.8"
+  - "1.6.11"
+  - "1.7.7"
+  FirstVulnerableVersion: "1.0.0"
+  Component:              "kubernetes"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-14491"
+    Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/C6IkCdk7opo"
+  Severity:               "critical"
