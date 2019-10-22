@@ -16,7 +16,7 @@ Vulnerabilities:
   - "v1.12.7"
   - "v1.13.5"
   - "v1.14.0"
-  FirstVulnerableVersion: "TBD"
+  FirstVulnerableVersion: "1.0.0"
   Component:              "kubectl"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1002101"
@@ -27,7 +27,7 @@ Vulnerabilities:
   - "1.12.9"
   - "1.13.6"
   - "1.14.2"
-  FirstVulnerableVersion: "1.1.0"
+  FirstVulnerableVersion: "1.0.0"
   Component:              "kubectl"
   Links:                    
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11246"
@@ -38,7 +38,7 @@ Vulnerabilities:
   - "1.13.9"
   - "1.14.5"
   - "1.15.2"
-  FirstVulnerableVersion: "1.1.0"
+  FirstVulnerableVersion: "1.0.0"
   Component:              "kubectl"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11249"
