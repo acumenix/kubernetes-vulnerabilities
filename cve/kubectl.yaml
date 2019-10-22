@@ -51,5 +51,5 @@ Vulnerabilities:
       To:   "v1.14.x"
   Component:              "kubectl"
   Links:
-    CVE:                   "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11244"
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11244"
   Severity:               "medium"

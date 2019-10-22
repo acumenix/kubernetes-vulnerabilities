@@ -121,7 +121,7 @@ Vulnerabilities:
     - From: "1.10.0"
       To:   "1.10.5"
     - From: "1.11.0"
-      To: "1.11.1"
+      To:   "1.11.1"
   Component:              "kubernetes"
   Platforms:
     Only:
@@ -148,7 +148,7 @@ Vulnerabilities:
   - "1.8.9"
   - "1.9.4"
   FirstVulnerableVersion: "1.0.0"
-  Component:  "kubernetes"
+  Component:              "kubernetes"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002102"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/P7lBjbjDKd8"
@@ -159,7 +159,7 @@ Vulnerabilities:
   - "1.8.9"
   - "1.9.4"
   FirstVulnerableVersion: "1.0.0"
-  Component:  "kubernetes"
+  Component:              "kubernetes"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1002101"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/P7lBjbjDKd8"
@@ -169,7 +169,7 @@ Vulnerabilities:
     Ranges:
     - From: "1.6.0"
       To:   "1.6.5"
-  Component:  "kubernetes"
+  Component:              "kubernetes"
   Platforms:
     Only:
     - "Azure"
