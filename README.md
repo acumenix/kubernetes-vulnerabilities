@@ -11,7 +11,7 @@ Each file in the cve folder contains CVEs for a specific component of kubernetes
 
 Each CVE must have one of the following fields:
 
-- FixedIn: patch numbers that fix each vulnerable minor version (higher versions are assumes fixed)
-- ExistsIn: a list of vulnerable versions (ranges of specific versions)
+- FixedIn: patch numbers that fix each vulnerable minor version (higher versions are assumed fixed)
+- ExistsIn: a list of vulnerable versions (ranges or versions)
 
 FirstVulnerableVersion is the first version that exposed this vulnerability.
