@@ -2,8 +2,8 @@ Vulnerabilities:
 - CVE:                    "CVE-2019-11245"
   ExistsIn:
     Versions:
-    - Version: "v1.13.6"
-    - Version: "v1.14.2"
+    - Version: "1.13.6"
+    - Version: "1.14.2"
   Component:              "kubelet"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11245"

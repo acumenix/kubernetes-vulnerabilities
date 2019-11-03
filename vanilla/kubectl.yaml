@@ -2,9 +2,9 @@ Vulnerabilities:
 - CVE:                    "CVE-2019-11251"
   ExistsIn:
     Versions:
-    - Version: "v1.13.10"
-    - Version: "v1.14.6"
-    - Version: "v1.15.3"
+    - Version: "1.13.10"
+    - Version: "1.14.6"
+    - Version: "1.15.3"
   Component:              "kubectl"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11251"
@@ -12,10 +12,10 @@ Vulnerabilities:
   Severity:               "medium"
 - CVE:                    "CVE-2019-1002101"
   FixedIn:
-  - "v1.11.9"
-  - "v1.12.7"
-  - "v1.13.5"
-  - "v1.14.0"
+  - "1.11.9"
+  - "1.12.7"
+  - "1.13.5"
+  - "1.14.0"
   FirstVulnerableVersion: "1.0.0"
   Component:              "kubectl"
   Links:
@@ -47,8 +47,8 @@ Vulnerabilities:
 - CVE:                    "CVE-2019-11244"
   ExistsIn:
     Ranges:
-    - From: "v1.8.x"
-      To:   "v1.14.x"
+    - From: "1.8.x"
+      To:   "1.14.x"
   Component:              "kubectl"
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11244"

@@ -2,7 +2,7 @@
 
 Security vulnerabilities of Kubernetes.
 
-Each file in the kubernetes folder contains CVEs for a specific component of kubernetes:
+Each file in the folders (vanilla, gke, etc.) contains CVEs for a specific component of kubernetes:
 
 - kubectl: vulnerabilities in the kubectl command-line
 - kubelet: vulnerabilities in the kubelet node agent
