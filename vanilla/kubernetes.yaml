@@ -11,6 +11,14 @@ Vulnerabilities:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11253"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/jk8polzSUxs"
   Severity:               "high"
+- CVE:                    "CVE-2019-11250"
+  FixedIn:
+  - "1.16.0"
+  FirstVulnerableVersion: "1.0.0"
+  Component:              "kubernetes"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11250"
+  Severity:               "medium"
 - CVE:                    "CVE-2019-16276"
   FixedIn:
   - "1.14.8"
