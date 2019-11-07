@@ -1,4 +1,24 @@
 Vulnerabilities:
+- CVE:                    "CVE-2018-5391"
+  ExistsIn:
+    Versions:
+    Ranges:
+    - From: "3.9.x"
+      To:   "4.18.x"
+  Component:              "linuxKernel"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5391"
+  Severity:               "high"
+- CVE:                    "CVE-2018-5390"
+  ExistsIn:
+    Versions:
+    Ranges:
+    - From: "4.9.x"
+      To:   "4.18.x"
+  Component:              "linuxKernel"
+  Links:
+    CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-5390"
+  Severity:               "high"
 - CVE:                    "CVE-2019-3874"
   ExistsIn:
     Versions:
