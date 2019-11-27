@@ -10,6 +10,7 @@ Vulnerabilities:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11251"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/6vTrp6tVpHo"
   Severity:               "medium"
+  Description:            "A vulnerability has been discovered in `kubectl cp` that allows a combination of two  symlinks to copy a file outside of its destination directory. This could be used to allow an attacker to place a netfarious file using a symlink, outside of the destination tree."
 - CVE:                    "CVE-2019-1002101"
   FixedIn:
   - "1.11.9"
@@ -22,6 +23,7 @@ Vulnerabilities:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-1002101"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/OYFV1hiDE2w"
   Severity:               "high"
+  Description:            "The kubectl cp command allows copying files between containers and the user machine. To copy files from a container, Kubernetes creates a tar inside the container, copies it over the network, and kubectl unpacks it on the user&#8217;s machine. If the tar binary in the container is malicious, it could run any code and output unexpected, malicious results. An attacker could use this to write files to any path on the user&#8217;s machine when kubectl cp is called, limited only by the system permissions of the local user. The untar function can both create and follow symbolic links. The issue is resolved in kubectl v1.11.9, v1.12.7, v1.13.5, and v1.14.0."
 - CVE:                    "CVE-2019-11246"
   FixedIn:
   - "1.12.9"
@@ -33,6 +35,7 @@ Vulnerabilities:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11246"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/NLs2TGbfPdo"
   Severity:               "medium"
+  Description:            "The kubectl cp command allows copying files between containers and the user machine. To copy files from a container, Kubernetes runs tar inside the container to create a tar archive, copies it over the network, and kubectl unpacks it on the user&#8217;s machine. If the tar binary in the container is malicious, it could run any code and output unexpected, malicious results. An attacker could use this to write files to any path on the user&#8217;s machine when kubectl cp is called, limited only by the system permissions of the local user."
 - CVE:                    "CVE-2019-11249"
   FixedIn:
   - "1.13.9"
@@ -44,6 +47,7 @@ Vulnerabilities:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11249"
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/vUtEcSEY6SM"
   Severity:               "medium"
+  Description:            "The kubectl cp command allows copying files between containers and the user machine. To copy files from a container, Kubernetes runs tar inside the container to create a tar archive, copies it over the network, and kubectl unpacks it on the user&#8217;s machine. If the tar binary in the container is malicious, it could run any code and output unexpected, malicious results. An attacker could use this to write files to any path on the user&#8217;s machine when kubectl cp is called, limited only by the system permissions of the local user."
 - CVE:                    "CVE-2019-11244"
   ExistsIn:
     Ranges:
@@ -53,3 +57,4 @@ Vulnerabilities:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11244"
   Severity:               "medium"
+  Description:            "In Kubernetes v1.8.x-v1.14.x, schema info is cached by kubectl in the location specified by --cache-dir (defaulting to $HOME/.kube/http-cache), written with world-writeable permissions (rw-rw-rw-). If --cache-dir is specified and pointed at a different location accessible to other users/groups, the written files may be modified by other users/groups and disrupt the kubectl invocation."
