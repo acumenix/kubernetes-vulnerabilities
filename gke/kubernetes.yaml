@@ -54,7 +54,7 @@ Vulnerabilities:
   - "1.10.12-gke.14"
   - "1.11.8-gke.6"
   - "1.12.6-gke.10"
-  - "1.13.4-gke.10 (Preview)"
+  - "1.13.4-gke.10"
   FirstVulnerableVersion: "1.0.0-gke.0"
   Component:              "kubernetes"
   Links:
