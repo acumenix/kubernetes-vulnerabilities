@@ -14,7 +14,6 @@ Vulnerabilities:
     Announcement:         "https://groups.google.com/forum/#!topic/kubernetes-security-announce/aXiYN0q4uIw"
   Severity:               "medium"
   Description:            "A security issue has been found in the kubernetes-csi external-provisioner, external-snapshotter, and external-resizer sidecars that impacts most versions of the sidecars bundled in Container Storage Interface (CSI) drivers. The vulnerabilities can result in unauthorized volume data access or mutation when using CSI volume snapshot, cloning or resizing features in Kubernetes. Prior to Kubernetes 1.16, these features were all alpha and disabled by default. Starting in Kubernetes 1.16, CSI cloning and resizing features are beta and enabled by default."
-
 - CVE:                    "CVE-2019-11253"
   FixedIn:
   - "1.13.12"
