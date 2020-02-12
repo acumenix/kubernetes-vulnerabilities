@@ -32,7 +32,7 @@ Vulnerabilities:
     Redhat:               "https://access.redhat.com/security/cve/cve-2018-10937"
   Severity:               "High"
   Description:            "A privilege escalation flaw was found in the source-to-image component of Openshift Container Platform which allows the assemble script to run as the root user in a non-privileged container. An attacker can use this flaw to open network connections, and possibly other actions, on the host which are normally only available to a root user."
-  - CVE:                    "CVE-2018-10937"
+- CVE:                  "CVE-2018-10937"
   FixedIn:
   - ""
   FirstVulnerableVersion: "3.11"
@@ -44,7 +44,7 @@ Vulnerabilities:
     Redhat:               "https://access.redhat.com/security/cve/cve-2018-10937"
   Severity:               "Medium"
   Description:            "A cross site scripting flaw exists in the tetonic-console component of Openshift Container Platform 3.11. An attacker with the ability to create pods can use this flaw to perform actions on the K8s API as the victim."
-    - CVE:                    "CVE-2019-3818"
+- CVE:                    "CVE-2019-3818"
   FixedIn:
   - "0.4.1"
   FirstVulnerableVersion: ""
@@ -52,10 +52,10 @@ Vulnerabilities:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=CVE-2019-3818"
     Announcement:         ""
-	Redhat:                 "https://access.redhat.com/security/cve/cve-2019-3818"
-  Severity:               ""
+  Redhat:                 "https://access.redhat.com/security/cve/cve-2019-3818"
+  Severity:               "High"
   Description:            "The kube-rbac-proxy container, as used in Red Hat OpenShift Container Platform, does not honor TLS configurations allowing for the use of insecure ciphers and TLS 1.0. An attacker could target traffic sent over a TLS connection with a weak configuration and potentially break the encryption of the data stream."
-    - CVE:                    "CVE-2019-10150"
+- CVE:                    "CVE-2019-10150"
   FixedIn:
   - "3.9"
   FirstVulnerableVersion: "3.6.x"
@@ -63,10 +63,10 @@ Vulnerabilities:
   Links:
     CVE:                  "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10150"
     Announcement:         ""
-	Redhat:               "https://access.redhat.com/security/cve/cve-2019-10150"
+  Redhat:                 "https://access.redhat.com/security/cve/cve-2019-10150"
   Severity:               "Medium"
   Description:            "It was found that OpenShift Container Platform versions 3.6.x - 4.6.0 does not perform SSH Host Key checking when using ssh key authentication during builds. An attacker, with the ability to redirect network traffic, could use this to alter the resulting build output."
-    - CVE:                    "CVE-2019-3889"
+- CVE:                    "CVE-2019-3889"
   FixedIn:
   - ""
   - ""
@@ -81,7 +81,7 @@ Vulnerabilities:
 	Redhat:                 "https://access.redhat.com/security/cve/cve-2019-3889"
   Severity:               "Medium"
   Description:            "A reflected XSS vulnerability exists in authorization flow of OpenShift Container Platform versions: openshift-online-3, openshift-enterprise-3.4 through 3.7 and openshift-enterprise-3.9 through 3.11. An attacker could use this flaw to steal authorization data by getting them to click on a malicious link."
-    - CVE:                    "CVE-2019-10176"
+- CVE:                    "CVE-2019-10176"
   FixedIn:
   - "3.11"
   FirstVulnerableVersion: ""
@@ -92,7 +92,7 @@ Vulnerabilities:
 	Redhat:                 "https://access.redhat.com/security/cve/cve-2019-10176"
   Severity:               "Medium"
   Description:            "A flaw was found in OpenShift Container Platform, versions 3.11 and later, in which the CSRF tokens used in the cluster console component were found to remain static during a user's session. An attacker with the ability to observe the value of this token would be able to re-use the token to perform a CSRF attack."
-    - CVE:                    "CVE-2019-10200"
+- CVE:                    "CVE-2019-10200"
   FixedIn:
   - ""
   - ""
@@ -106,7 +106,7 @@ Vulnerabilities:
 	Redhat:                 "https://access.redhat.com/security/cve/cve-2019-10200"
   Severity:               ""
   Description:            "A flaw was discovered in OpenShift Container Platform 4 where, by default, users with access to create pods also have the ability to schedule workloads on master nodes. Pods with permission to access the host network, running on master nodes, can retrieve security credentials for the master AWS IAM role, allowing management access to AWS resources. With access to the security credentials, the user then has access to the entire infrastructure. Impact to data and system availability is high."
-    - CVE:                    "CVE-2019-10213"
+- CVE:                    "CVE-2019-10213"
   FixedIn:
   - ""
   FirstVulnerableVersion: "4.1"
@@ -117,7 +117,7 @@ Vulnerabilities:
 	Redhat:                 "https://access.redhat.com/security/cve/cve-2019-10213"
   Severity:               "Medium"
   Description:            "OpenShift Container Platform, versions 4.1 and 4.2, does not sanitize secret data written to pod logs when the log level in a given operator is set to Debug or higher. A low privileged user could read pod logs to discover secret material if the log level has already been modified in an operator by a privileged user."
-    - CVE:                    "CVE-2019-14819"
+- CVE:                    "CVE-2019-14819"
   FixedIn:
   - "3.11"
   FirstVulnerableVersion: "3.X"
@@ -128,7 +128,7 @@ Vulnerabilities:
 	Redhat:                 "https://access.redhat.com/security/cve/cve-2019-14819"
   Severity:               "High"
   Description:            "A flaw was found during the upgrade of an existing OpenShift Container Platform 3.x cluster. Using CRI-O, the dockergc service account is assigned to the current namespace of the user performing the upgrade. This flaw can allow an unprivileged user to escalate their privileges to those allowed by the privileged Security Context Constraints."
-    - CVE:                    "CVE-2019-10214"
+- CVE:                    "CVE-2019-10214"
   FixedIn:
   - "3.9"
   - "3.10"
@@ -142,7 +142,7 @@ Vulnerabilities:
 	Redhat:                 "https://access.redhat.com/security/cve/cve-2019-10214"
   Severity:               "Medium"
   Description:            "The containers/image library used by the container tools Podman, Buildah, and Skopeo in Red Hat Enterprise Linux version 8 and CRI-O in OpenShift Container Platform, does not enforce TLS connections to the container registry authorization service. An attacker could use this vulnerability to launch a MiTM attack and steal login credentials or bearer tokens."
-    - CVE:                    "CVE-2020-1702"
+- CVE:                    "CVE-2020-1702"
   FixedIn:
   - ""
   FirstVulnerableVersion: "3.11"
