@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: circleci/buildpack-deps:14.04
-    working_directory: /go/src/github.com/tufin/kubernetes-vulnerabilities
     steps:
       - run:
           name: Test
