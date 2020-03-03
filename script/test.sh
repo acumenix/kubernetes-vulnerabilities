@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ -z "${CIRCLE_TOKEN_ORCA}" ] && echo "CIRCLE_TOKEN_ORCA can not be empty" exit 1
+[ -z "${CIRCLE_TOKEN_ORCA}" ] && echo "CIRCLE_TOKEN_ORCA can not be empty" && exit 1
 
 echo "Running audit tests..."
 jobNumber=$(curl -s -X POST \
