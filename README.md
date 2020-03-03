@@ -1,5 +1,7 @@
 # kubernetes-vulnerabilities
 
+[![CircleCI](https://circleci.com/gh/Tufin/kubernetes-vulnerabilities.svg?style=svg)](https://circleci.com/gh/Tufin/kubernetes-vulnerabilities)
+
 Security vulnerabilities of Kubernetes.
 
 Each file in the folders (vanilla, gke, etc.) contains CVEs for a specific component of kubernetes:
