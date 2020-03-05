@@ -238,6 +238,6 @@ Plugins:
    Recommendation:
      Enable: True
      Reason: Enabled by default in v1.16
-   FeatureState: True
+   FeatureState:
      State:   Beta
      Version: "v1.13"
