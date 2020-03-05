@@ -205,7 +205,7 @@ Plugins:
      This admission controller will deny any pod that attempts to set certain escalating SecurityContext fields. This should be enabled if a cluster doesn’t utilize pod security policies to restrict the set of values a security context can take.
    Documentation: https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/#securitycontextdeny
    Recommendation:
-     Enable: Conditional
+     Enable: True
      Condition: Ensure that the admission control plugin SecurityContextDeny is set if PodSecurityPolicy is not used
      Reason: CIS benchmark 1.2.13
 -  Plugin: ServiceAccount
